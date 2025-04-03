@@ -1,0 +1,18 @@
+/* App.css */
+.App {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .red-section {
+    background-color: #f7f2db;
+    height: 600px;
+  }
+  
+  .columns-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  

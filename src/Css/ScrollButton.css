@@ -1,0 +1,19 @@
+/* ScrollButton.css */
+
+.scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-button:hover {
+    background-color: #0056b3; /* Adjust hover background color as needed */
+  }
+  

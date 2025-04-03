@@ -1,0 +1,100 @@
+/* Layout.css */
+
+/* Style for the container div */
+.containerlayout {
+  display: flex;
+  /* background-color: green; */
+}
+
+
+/* Common styles for both columns */
+.ecolumn1,
+.ecolumn2 {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: black; /* Default background color */
+}
+
+/* Style for column 1 */
+.ecolumn1 {
+  display: flex;
+  flex-direction: column;
+  height: auto; /* Remove fixed height for responsiveness */
+}
+
+.ecolumn1 h2,
+.ecolumn1 p {
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+.content-center h2{
+  padding: 70px;
+}
+
+.top-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.top-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.top-links a:hover {
+  background-color: #2074a0;
+}
+
+/* Style for column 2 */
+.ecolumn2 {
+  /* background-color: grey; Default background color */
+  background: linear-gradient(to right, #ff5733, #ff9333, #ffd733, #66ff33);
+}
+
+.ecolumn2 img {
+  max-width: 100%; /* Make sure the image is responsive */
+  height: auto;
+}
+
+
+
+.ccc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 79px;
+  padding-bottom: 20px;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Change to a column layout on small screens */
+  }
+
+  .ecolumn1,
+  .ecolumn2 {
+    flex: 1; /* Full width for small screens */
+    margin-bottom: 20px; /* Add some spacing between columns */
+  }
+}
+
+@media (max-width: 480px) {
+  .top-links {
+    flex-direction: column; /* Stack links vertically on extra small screens */
+  }
+
+  .top-links a {
+    margin: 10px 0; /* Adjust spacing for links on extra small screens */
+  }
+}

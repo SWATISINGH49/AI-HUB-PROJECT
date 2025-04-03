@@ -1,0 +1,32 @@
+/* Top.css */
+
+.top-container {
+    display: flex;
+    background-color: #f7f0d8;
+  }
+  
+  .left-part {
+    flex: 0.6; /* Takes up 60% of the width */
+    padding: 20px;
+    background-color: #f7f0d8;
+    color: black;
+    font-size: larger;
+  }
+  
+  .right-part {
+    flex: 0.4; /* Takes up 40% of the width */
+    padding: 20px;
+    background-color: #f7f0d8;
+  }
+  
+  .toptext {
+    color: #777775;
+  }
+
+  .topbtn {
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+  }
+  /* Add any additional styles or adjustments based on your requirements */
+  

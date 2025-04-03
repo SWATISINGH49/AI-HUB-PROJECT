@@ -1,0 +1,30 @@
+/* GlowingButton.css */
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+  }
+  50% {
+    box-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+  }
+  100% {
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+  }
+}
+
+.glowing-button {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  animation: glowing 1.5s infinite;
+}
+
+.glowing-button:hover {
+  animation: none;
+  box-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+}

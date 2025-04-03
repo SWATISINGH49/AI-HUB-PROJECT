@@ -1,0 +1,51 @@
+/* Pricing.css */
+
+.pricing-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.pricing-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.pricing-row {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.pricing-row td, .pricing-row th {
+  padding: 15px;
+  text-align: center;
+}
+
+.feature-row td {
+  padding: 15px;
+  text-align: left; /* Adjusted text alignment for feature names */
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.subscribe-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: #218838;
+}

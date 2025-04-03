@@ -1,0 +1,19 @@
+/* Style for the container div */
+.container {
+  display: flex;
+  /* background-color: green; */
+}
+
+/* Style for each column */
+.ecolumn {
+  flex: 1; /* This makes both columns take equal width */
+  padding: 20px; /* Add padding for spacing */
+  border: 1px solid #ccc; /* Add border for visualization */
+  }
+
+.ecolumn img {
+  width: 50%;
+  
+  
+}
+

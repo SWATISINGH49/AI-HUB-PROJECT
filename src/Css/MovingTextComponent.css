@@ -1,0 +1,17 @@
+/* MovingTextComponent.css */
+.moving-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+    background-color: #f9dfa8;
+  }
+  
+  .moving-text {
+    padding: 10px;
+    margin-right: 10px;
+    color: black;
+    text-align: center;
+   
+  }
+ 
+  

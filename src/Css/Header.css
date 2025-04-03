@@ -1,0 +1,30 @@
+/* Header.css */
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  background-color: #24acf2;
+}
+
+.centered-image {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  z-index: 200;
+  
+}
+
+.topani1 {
+  margin-left: 200px; /* Adjust the left margin as needed */
+  margin-top: -50px;
+  transform: translateX(6%);
+}
+
+.topani2 {
+  margin-right: 200px; /* Adjust the right margin as needed */
+  margin-top: -50px;
+  transform: translateX(-5%);
+}

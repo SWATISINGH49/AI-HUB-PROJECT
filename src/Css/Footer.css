@@ -1,0 +1,103 @@
+/* Footer.css */
+
+.footer-container {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-left {
+  width: 60%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footer-left h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-left button {
+  background-color: #ff4500;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-right {
+  width: 40%;
+  display: flex;
+}
+
+.footer-column {
+  width: 50%;
+  padding: 0 10px; /* Added padding for better spacing */
+}
+
+.footer-right h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  color: #ccc;
+  text-align: center;
+  margin: 0; /* Add this to remove default margin */
+  padding-left: 280px; /* Add padding for better appearance */
+}
+
+/* Responsive adjustments using media queries */
+@media (max-width: 1200px) {
+  .footer-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .footer-row {
+    flex-direction: column; /* Stack columns in a vertical layout on smaller screens */
+    align-items: flex-start; /* Align items to the start on smaller screens */
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%; /* Take full width on smaller screens */
+    margin: 0; /* Remove margins on smaller screens */
+  }
+
+  .footer-right {
+    margin-top: 10px; /* Add spacing between columns on smaller screens */
+  }
+
+  .footer-column {
+    width: 100%; /* Take full width on smaller screens */
+    margin-bottom: 10px; /* Add spacing between columns on smaller screens */
+  }
+
+  .disclaimer {
+    padding-left: 0; /* Remove padding for better appearance on smaller screens */
+  }
+}

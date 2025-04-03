@@ -1,0 +1,29 @@
+/* Platform.css */
+
+.platform-section {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    margin-top: -150px;
+  }
+  
+  .platformimg {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    z-index: 200;
+    margin-top: 20px; /* Adjust the spacing between title and image */
+  }
+  
+  .platform-title {
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    margin-top: 200px;
+    z-index: 300;
+  }
+  

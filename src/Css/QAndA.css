@@ -1,0 +1,37 @@
+/* QAndA.css */
+
+.q-and-a-container {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 80px;
+}
+
+.q-and-a-container h1{
+  font-size: 4em;
+}
+
+.question {
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.question-header {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-header h3 {
+  margin: 0;
+}
+
+.answer {
+  padding: 10px;
+  background-color: white;
+  /* border-top: 1px solid #ccc; */
+  color: black;
+}
